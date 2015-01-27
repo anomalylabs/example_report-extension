@@ -1,6 +1,6 @@
 <?php namespace Anomaly\ExampleReportExtension;
 
-use Anomaly\DashboardModule\Dashboard\Component\Report\Report;
+use Anomaly\DashboardModule\Dashboard\Component\Report\ReportExtension;
 
 /**
  * Class ExampleReportExtension
@@ -10,7 +10,7 @@ use Anomaly\DashboardModule\Dashboard\Component\Report\Report;
  * @author        Ryan Thompson <ryan@anomaly.is>
  * @package       Anomaly\ExampleReportExtension
  */
-class ExampleReportExtension extends Report
+class ExampleReportExtension extends ReportExtension
 {
 
     /**
