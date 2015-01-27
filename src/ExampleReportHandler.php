@@ -8,7 +8,7 @@
  * @author        Ryan Thompson <ryan@anomaly.is>
  * @package       Anomaly\ExampleReportExtension
  */
-class ExampleReportExtensionHandler
+class ExampleReportHandler
 {
 
     /**
