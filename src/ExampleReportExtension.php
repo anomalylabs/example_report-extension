@@ -14,10 +14,11 @@ class ExampleReportExtension extends ReportExtension
 {
 
     /**
-     * Extension identification.
+     * This extension provides a the example
+     * report for the Anomaly/Dashboard module.
      *
      * @var string
      */
-    protected $identifier = 'anomaly.module.dashboard::report.example';
+    protected $provides = 'anomaly.module.dashboard::report.example';
 
 }
